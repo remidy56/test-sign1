@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(rgb(44, 44, 44), rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    min-height: 100vh;
+    background-attachment:fixed;
+}
+
+
+.container{
+    background-color:#272624;
+    border-radius: 20px;
+    border: none; 
+    width:350px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 4px 10px 10px rgb(38, 42, 46);
+    box-shadow: 0px 0px 2px rgb(252, 252, 252);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+#signin{
+    font-size: 30px;
+    font-family: arial;
+    color:white;
+    padding: 3px;
+    text-align: center;
+    margin-top: 30px;
+}
+#emal{
+    height: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #313131;
+    box-shadow: 5px 10px 3px  #222220;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    margin-top:3px;
+    border: none;
+    
+}
+#emal input::placeholder{
+    color: rgb(163, 159, 159);
+}
+#pswd{
+    height: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #313131;
+    box-shadow: 5px 10px 3px  #222220;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    margin-top:30px;
+    border: none;
+}
+
+
+
+#emal:hover{
+    box-shadow: 0px 0px 3px #474643;
+}
+#pswd:hover{
+    box-shadow: 0px 0px 3px #474643;
+}
+
+#login{
+    background-color: rgb(105, 112, 112);
+    color: white;
+    outline: white;
+    border: 1px solid rgb(100, 100, 100) ;
+    width: 290px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+
+
