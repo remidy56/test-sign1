@@ -1,0 +1,90 @@
+body{
+    background-color: #101014;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background-color:#272624;
+    border-radius: 100px;
+    border: none; 
+    width:60vw;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 4px 10px 10px rgb(38, 42, 46);
+    
+}
+#signin{
+    font-size: 70px;
+    font-family: arial;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+#emal{
+    height: 40px;
+    width: 350px;
+    border-radius: 30px;
+    background-color: #313131;
+    box-shadow: 5px 10px 3px  #222220;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    margin-top: 40px;
+    border: none;
+}
+#pswd{
+    height: 40px;
+    width: 350px;
+    border-radius: 30px;
+    background-color: #313131;
+    box-shadow: 5px 10px 3px  #222220;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    margin-top: 40px;
+    border: none;
+}
+#emal:focus{
+    outline: 2px solid #00000093;
+}
+#emal:hover{
+    box-shadow: 0px 0px 3px #474643;
+}
+#pswd:hover{
+    box-shadow: 0px 0px 3px #474643;
+}
+#emalt{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 10px;
+    font-size: larger;
+}
+#pswdt{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 10px;
+    font-size:larger;
+}
+#login{
+    background-color: rgb(105, 112, 112);
+    color: white;
+    outline: white;
+    border: 1px solid white;
+    width: 370px;
+    height: 60px;
+    margin: 50px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
